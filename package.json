@@ -1,0 +1,25 @@
+{
+  "name": "x-ui-clone",
+  "version": "1.0.0",
+  "description": "UI Clone of X also known as Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "start": "vite"
+  },
+  "keywords": [
+    "UI",
+    "Clone",
+    "X",
+    "Tailwindcss",
+    "Practice"
+  ],
+  "author": "Prem Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.4"
+  }
+}

@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="icon" href="./favicon.ico" type="image/png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=gif_box" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+    </style>
+</head>
+
+<body class="bg-black">
+
+    <div class="flex md:mx-20">
+
+
+        <div
+            class="first flex-1 flex flex-col h-screen justify-around items-center max-md:justify-start max-md:h-screen max-md:fixed max-md:top-0  bg-black sticky top-0 max-md:hidden">
+
+            <div class="menu-items flex flex-col  gap-2  text-style">
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-3 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/X-Icon.svg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/Home-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">Home</div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/Search-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">Explore</div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/Bell-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">Notifications</div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/Message-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">Messages</div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/Communities-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">Communities</div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/Premium-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">Premiuim</div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/Profile-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">Profile</div>
+                </div>
+                <div
+                    class="item hover:bg-neutral-800 duration-200 ease-in-out hover:cursor-pointer rounded-full py-2 px-4 w-max">
+                    <div class="logo">
+                        <img src="./Assets/Icons/More-Icon.svg" alt="">
+                    </div>
+                    <div class="item-name hidden md:block ">More</div>
+                </div>
+
+                <div>
+                    <button
+                        class="post-btn hidden md:block hover:bg-neutral-400 duration-300 ease-in-out hover:cursor-pointer">Post</button>
+                </div>
+            </div>
+
+            <div
+                class="creator hover:bg-neutral-950 duration-200 ease-in-out hover:cursor-pointer rounded-full hidden md:flex ">
+                <div class="profile-photo">
+                    <img src="https://pbs.twimg.com/profile_images/1945041237628637184/neTLBwL1_bigger.jpg"
+                        class="rounded-full w-10 mt-1 ml-1 " alt="">
+                </div>
+                <div class="creator-profile">
+                    <div class="creator-name">Prem Mishra</div>
+                    <div class="creator-id">@mishra_tweeter</div>
+                </div>
+                <div class="text-xl pl-2">
+                    ...
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="fixed bottom-0 left-0 right-0 z-50 bg-black text-white flex justify-between px-6 py-2 max-sm:flex sm:hidden">
+            <div class="icon hover:bg-neutral-800 p-2 rounded-full">
+                <img src="./Assets/Icons/Home-Icon.svg" alt="Home" class="w-6 h-6" />
+            </div>
+            <div class="icon hover:bg-neutral-800 p-2 rounded-full">
+                <img src="./Assets/Icons/Search-Icon.svg" alt="Search" class="w-6 h-6" />
+            </div>
+            <div class="icon hover:bg-neutral-800 p-2 rounded-full">
+                <img src="./Assets/Icons/Bell-Icon.svg" alt="Notifications" class="w-6 h-6" />
+            </div>
+            <div class="icon hover:bg-neutral-800 p-2 rounded-full">
+                <img src="./Assets/Icons/Message-Icon.svg" alt="Messages" class="w-6 h-6" />
+            </div>
+            <div class="icon hover:bg-neutral-800 p-2 rounded-full">
+                <img src="./Assets/Icons/Profile-Icon.svg" alt="Profile" class="w-6 h-6" />
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div
+            class="second max-md:w-[calc(100vw-60px)] max-md:mx-auto flex-2  h-full bg-black border-x-[1px] border-neutral-800 ">
+
+            <div
+                class="top-bar sticky top-0 backdrop-blur-[10px] text-white flex font-bold border-b border-x border-neutral-800">
+                <div class="blue-bar absolute w-16 h-[3px] rounded-full bg-[#1d9bf0]  bottom-0 left-[20%]">
+                </div>
+                <div
+                    class="sec-1 w-1/2 flex justify-center hover:bg-neutral-800/50 hover:cursor-pointer duration-200 ease-in-out py-4">
+                    For you</div>
+                <div
+                    class="sec-2 w-1/2 flex justify-center hover:bg-neutral-800/50 hover:cursor-pointer duration-200 ease-in-out py-4">
+                    Following</div>
+            </div>
+            <div class="h-[1px] w-full bg-neutral-800"></div>
+
+
+            <div class="new-post flex p-4 max-md:p-2 gap-2">
+                <div class="profile-photo">
+                    <img src="https://pbs.twimg.com/profile_images/1945041237628637184/neTLBwL1_bigger.jpg"
+                        class="rounded-full w-12 mt-1 ml-1 max-md:w-8 max-md:mt-2" alt="">
+                </div>
+                <div class="content-area flex-1 h-full flex flex-col gap-2 md:px-2">
+                    <div class="write-here h-full text-[1.3rem]">
+                        <input type="text" placeholder="What's Happening ?" name="search-box"
+                            class="bg-black text-white py-3 w-full h-full content-area-text outline-none" />
+                    </div>
+                    <div
+                        class="audience flex items-center gap-2 hover:bg-[#1d9bf0]/20 duration-300 ease-in-out rounded-full p-[8px] hover:cursor-pointer w-max">
+                        <img src="./Assets/Icons/globe-Icon.svg" alt="">
+                        <span class=" text-xs text-[#1d9bf0] font-bold ">Everyone can reply</span>
+                    </div>
+
+                    <div class="h-[1px] md:w-full bg-neutral-800 md:my-3"></div>
+
+                    <div class="media-section flex justify-between items-center">
+                        <div class="media-icons flex gap-5 max-sm:gap-1 items-center ">
+                            <div
+                                class="gallery-icon hover:bg-[#1d9bf0]/20 duration-300 ease-in-out rounded-full p-[6px] hover:cursor-pointer">
+                                <img src="./Assets/Icons/Media-Icon.svg" alt="">
+                            </div>
+
+                            <div
+                                class="gif-icon hover:bg-[#1d9bf0]/20 duration-300 ease-in-out rounded-full p-[6px] hover:cursor-pointer">
+                                <img src="./Assets/Icons/GIF-Icon.svg" alt="">
+                            </div>
+
+                            <div
+                                class="polling-icon hover:bg-[#1d9bf0]/20 duration-300 ease-in-out rounded-full p-[6px] hover:cursor-pointer">
+                                <img src="./Assets/Icons/Poll-Icon.svg" alt="">
+                            </div>
+                            <div
+                                class="emogi-icon hover:bg-[#1d9bf0]/20 duration-300 ease-in-out rounded-full p-[6px] hover:cursor-pointer">
+                                <img src="./Assets/Icons/emogi-Icon.svg" alt="">
+                            </div>
+                            <div
+                                class="calendar-icon hover:bg-[#1d9bf0]/20 duration-300 ease-in-out rounded-full p-[6px] hover:cursor-pointer">
+                                <img src="./Assets/Icons/Calendar-Icon.svg" alt="">
+                            </div>
+                            <div class="location-icon  ">
+                                <img src="./Assets/Icons/location-Icon.svg" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <button class="post-btn-2 scale-[0.8]">Post</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-[2px] w-full bg-neutral-800"></div>
+
+            <div class="post p-2 hover:bg-neutral-950 hover:cursor-pointer duration-400 ease-in-out">
+                <div class="profile flex items-center gap-1">
+                    <div class="profile-photo">
+                        <img src="https://pbs.twimg.com/profile_images/1945041237628637184/neTLBwL1_bigger.jpg"
+                            class="rounded-full w-10 max-md:w-8 mt-1 mx-2  " alt="">
+                    </div>
+                    <div class="profile-details flex flex-1 gap-2 max-md:gap-1 items-center">
+                        <div class="profile-name text-2xl font-bold max-md:text-[1rem] h-full">Prem Mishra</div>
+                        <div class="profile-id max-md:text-xs h-full">@mishra_tweeter</div>
+                        <div class="date max-md:text-xs h-full">· 22 h</div>
+                    </div>
+                </div>
+                <div class="post-content flex flex-col max-md:mt-3 md:ml-16 md:mr-3 gap-3">
+                    <div class="caption max-md:text-sm">Blooming with style, sweating with power 🌸💪 Skechers apparel
+                        got me thriving
+                        inside and out. </div>
+                    <div class="posted-photo">
+                        <img src="./Assets/Post-Images/post-1.jpeg"
+                            class="rounded-2xl max-h-[500px] max-md:max-h-[300px] w-full object-cover" alt="">
+                    </div>
+
+                    <div class="media-icons flex justify-around items-center scale-[0.9]">
+                        <div
+                            class="reply-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#1d9bf0]/35 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#1d9bf0] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M20 9C19.2048 5.01455 15.5128 2 11.0793 2C6.06549 2 2 5.85521 2 10.61C2 12.8946 2.93819 14.9704 4.46855 16.5108C4.80549 16.85 5.03045 17.3134 4.93966 17.7903C4.78982 18.5701 4.45026 19.2975 3.95305 19.9037C5.26123 20.1449 6.62147 19.9277 7.78801 19.3127C8.20039 19.0954 8.40657 18.9867 8.55207 18.9646C8.65392 18.9492 8.78659 18.9636 9 19.0002"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M11 16.2617C11 19.1674 13.4628 21.5234 16.5 21.5234C16.8571 21.5238 17.2132 21.4908 17.564 21.425C17.8165 21.3775 17.9428 21.3538 18.0309 21.3673C18.119 21.3807 18.244 21.4472 18.4938 21.58C19.2004 21.9558 20.0244 22.0885 20.8169 21.9411C20.5157 21.5707 20.31 21.1262 20.2192 20.6496C20.1642 20.3582 20.3005 20.075 20.5046 19.8677C21.4317 18.9263 22 17.6578 22 16.2617C22 13.356 19.5372 11 16.5 11C13.4628 11 11 13.356 11 16.2617Z"
+                                        stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>300
+                        </div>
+
+                        <div
+                            class="repost-icon icons-text hover:cursor-pointer hover:text-green-400 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#00ba7c]/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#00ba7c] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M5.5 3.5L5.5 14.5C5.5 18.2133 8.18503 21 12 21" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M18.5 20.5L18.5 9.5C18.5 5.78672 15.815 3 12 3" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 18C21 18 19.1588 20.5 18.5 20.5C17.8412 20.5 16 18 16 18"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M8 5.50022C8 5.50022 6.15878 3.00025 5.49998 3.00024C4.84118 3.00024 3 5.50024 3 5.50024"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>1k
+                        </div>
+
+                        <div
+                            class="like-icon icons-text hover:cursor-pointer hover:text-pink-600 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-pink-600/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-pink-600 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M10.4107 19.9677C7.58942 17.858 2 13.0348 2 8.69444C2 5.82563 4.10526 3.5 7 3.5C8.5 3.5 10 4 12 6C14 4 15.5 3.5 17 3.5C19.8947 3.5 22 5.82563 22 8.69444C22 13.0348 16.4106 17.858 13.5893 19.9677C12.6399 20.6776 11.3601 20.6776 10.4107 19.9677Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>4.5k
+                        </div>
+                        <div
+                            class="views-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M7 17L7 13" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M12 17L12 7" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M17 17L17 11" stroke-width="1.5" stroke-linecap="round" />
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </div>8.9k
+                        </div>
+                        <div
+                            class="bookmark-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-all duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M4 17.9808V9.70753C4 6.07416 4 4.25748 5.17157 3.12874C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.12874C20 4.25748 20 6.07416 20 9.70753V17.9808C20 20.2867 20 21.4396 19.2272 21.8523C17.7305 22.6514 14.9232 19.9852 13.59 19.1824C12.8168 18.7168 12.4302 18.484 12 18.484C11.5698 18.484 11.1832 18.7168 10.41 19.1824C9.0768 19.9852 6.26947 22.6514 4.77285 21.8523C4 21.4396 4 20.2867 4 17.9808Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-[2px] w-full bg-neutral-800"></div>
+
+            <div class="post p-2 hover:bg-neutral-950 hover:cursor-pointer duration-400 ease-in-out">
+                <div class="profile flex items-center gap-1">
+                    <div class="profile-photo">
+                        <img src="https://pbs.twimg.com/profile_images/1945041237628637184/neTLBwL1_bigger.jpg"
+                            class="rounded-full w-10 max-md:w-8 mt-1 mx-2  " alt="">
+                    </div>
+                    <div class="profile-details flex flex-1 gap-2 max-md:gap-1 items-center">
+                        <div class="profile-name text-2xl font-bold max-md:text-[1rem] h-full">Prem Mishra</div>
+                        <div class="profile-id max-md:text-xs h-full">@mishra_tweeter</div>
+                        <div class="date max-md:text-xs h-full">· 2 D</div>
+                    </div>
+                </div>
+                <div class="post-content flex flex-col max-md:mt-3 md:ml-16 md:mr-3 gap-3">
+                    <div class="caption max-md:text-sm">At coldplay concert</div>
+                    <div class="posted-photo">
+                        <img src="./Assets/Post-Images/post-2.jpeg"
+                            class="rounded-2xl max-h-[500px] max-md:max-h-[300px] w-full object-cover" alt="">
+                    </div>
+
+                    <div class="media-icons flex justify-around items-center scale-[0.9]">
+                        <div
+                            class="reply-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#1d9bf0]/35 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#1d9bf0] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M20 9C19.2048 5.01455 15.5128 2 11.0793 2C6.06549 2 2 5.85521 2 10.61C2 12.8946 2.93819 14.9704 4.46855 16.5108C4.80549 16.85 5.03045 17.3134 4.93966 17.7903C4.78982 18.5701 4.45026 19.2975 3.95305 19.9037C5.26123 20.1449 6.62147 19.9277 7.78801 19.3127C8.20039 19.0954 8.40657 18.9867 8.55207 18.9646C8.65392 18.9492 8.78659 18.9636 9 19.0002"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M11 16.2617C11 19.1674 13.4628 21.5234 16.5 21.5234C16.8571 21.5238 17.2132 21.4908 17.564 21.425C17.8165 21.3775 17.9428 21.3538 18.0309 21.3673C18.119 21.3807 18.244 21.4472 18.4938 21.58C19.2004 21.9558 20.0244 22.0885 20.8169 21.9411C20.5157 21.5707 20.31 21.1262 20.2192 20.6496C20.1642 20.3582 20.3005 20.075 20.5046 19.8677C21.4317 18.9263 22 17.6578 22 16.2617C22 13.356 19.5372 11 16.5 11C13.4628 11 11 13.356 11 16.2617Z"
+                                        stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>300
+                        </div>
+
+                        <div
+                            class="repost-icon icons-text hover:cursor-pointer hover:text-green-400 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#00ba7c]/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#00ba7c] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M5.5 3.5L5.5 14.5C5.5 18.2133 8.18503 21 12 21" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M18.5 20.5L18.5 9.5C18.5 5.78672 15.815 3 12 3" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 18C21 18 19.1588 20.5 18.5 20.5C17.8412 20.5 16 18 16 18"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M8 5.50022C8 5.50022 6.15878 3.00025 5.49998 3.00024C4.84118 3.00024 3 5.50024 3 5.50024"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>1k
+                        </div>
+
+                        <div
+                            class="like-icon icons-text hover:cursor-pointer hover:text-pink-600 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-pink-600/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-pink-600 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M10.4107 19.9677C7.58942 17.858 2 13.0348 2 8.69444C2 5.82563 4.10526 3.5 7 3.5C8.5 3.5 10 4 12 6C14 4 15.5 3.5 17 3.5C19.8947 3.5 22 5.82563 22 8.69444C22 13.0348 16.4106 17.858 13.5893 19.9677C12.6399 20.6776 11.3601 20.6776 10.4107 19.9677Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>4.5k
+                        </div>
+                        <div
+                            class="views-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M7 17L7 13" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M12 17L12 7" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M17 17L17 11" stroke-width="1.5" stroke-linecap="round" />
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </div>8.9k
+                        </div>
+                        <div
+                            class="bookmark-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-all duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M4 17.9808V9.70753C4 6.07416 4 4.25748 5.17157 3.12874C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.12874C20 4.25748 20 6.07416 20 9.70753V17.9808C20 20.2867 20 21.4396 19.2272 21.8523C17.7305 22.6514 14.9232 19.9852 13.59 19.1824C12.8168 18.7168 12.4302 18.484 12 18.484C11.5698 18.484 11.1832 18.7168 10.41 19.1824C9.0768 19.9852 6.26947 22.6514 4.77285 21.8523C4 21.4396 4 20.2867 4 17.9808Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-[2px] w-full bg-neutral-800"></div>
+
+            <div class="post p-2 hover:bg-neutral-950 hover:cursor-pointer duration-400 ease-in-out">
+                <div class="profile flex items-center gap-1">
+                    <div class="profile-photo">
+                        <img src="https://pbs.twimg.com/profile_images/1945041237628637184/neTLBwL1_bigger.jpg"
+                            class="rounded-full w-10 max-md:w-8 mt-1 mx-2  " alt="">
+                    </div>
+                    <div class="profile-details flex flex-1 gap-2 max-md:gap-1 items-center">
+                        <div class="profile-name text-2xl font-bold max-md:text-[1rem] h-full">Prem Mishra</div>
+                        <div class="profile-id max-md:text-xs h-full">@mishra_tweeter</div>
+                        <div class="date max-md:text-xs h-full">· 5 D</div>
+                    </div>
+                </div>
+                <div class="post-content flex flex-col max-md:mt-3 md:ml-16 md:mr-3 gap-3">
+                    <div class="caption max-md:text-sm">I am a Hindu, and I'm not weak.</div>
+                    <div class="posted-photo">
+                        <img src="./Assets/Post-Images/post-3.jpeg"
+                            class="rounded-2xl max-h-[500px] max-md:max-h-[300px] w-full object-cover" alt="">
+                    </div>
+
+                    <div class="media-icons flex justify-around items-center scale-[0.9]">
+                        <div
+                            class="reply-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#1d9bf0]/35 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#1d9bf0] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M20 9C19.2048 5.01455 15.5128 2 11.0793 2C6.06549 2 2 5.85521 2 10.61C2 12.8946 2.93819 14.9704 4.46855 16.5108C4.80549 16.85 5.03045 17.3134 4.93966 17.7903C4.78982 18.5701 4.45026 19.2975 3.95305 19.9037C5.26123 20.1449 6.62147 19.9277 7.78801 19.3127C8.20039 19.0954 8.40657 18.9867 8.55207 18.9646C8.65392 18.9492 8.78659 18.9636 9 19.0002"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M11 16.2617C11 19.1674 13.4628 21.5234 16.5 21.5234C16.8571 21.5238 17.2132 21.4908 17.564 21.425C17.8165 21.3775 17.9428 21.3538 18.0309 21.3673C18.119 21.3807 18.244 21.4472 18.4938 21.58C19.2004 21.9558 20.0244 22.0885 20.8169 21.9411C20.5157 21.5707 20.31 21.1262 20.2192 20.6496C20.1642 20.3582 20.3005 20.075 20.5046 19.8677C21.4317 18.9263 22 17.6578 22 16.2617C22 13.356 19.5372 11 16.5 11C13.4628 11 11 13.356 11 16.2617Z"
+                                        stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>300
+                        </div>
+
+                        <div
+                            class="repost-icon icons-text hover:cursor-pointer hover:text-green-400 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#00ba7c]/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#00ba7c] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M5.5 3.5L5.5 14.5C5.5 18.2133 8.18503 21 12 21" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M18.5 20.5L18.5 9.5C18.5 5.78672 15.815 3 12 3" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 18C21 18 19.1588 20.5 18.5 20.5C17.8412 20.5 16 18 16 18"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M8 5.50022C8 5.50022 6.15878 3.00025 5.49998 3.00024C4.84118 3.00024 3 5.50024 3 5.50024"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>1k
+                        </div>
+
+                        <div
+                            class="like-icon icons-text hover:cursor-pointer hover:text-pink-600 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-pink-600/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-pink-600 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M10.4107 19.9677C7.58942 17.858 2 13.0348 2 8.69444C2 5.82563 4.10526 3.5 7 3.5C8.5 3.5 10 4 12 6C14 4 15.5 3.5 17 3.5C19.8947 3.5 22 5.82563 22 8.69444C22 13.0348 16.4106 17.858 13.5893 19.9677C12.6399 20.6776 11.3601 20.6776 10.4107 19.9677Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>4.5k
+                        </div>
+                        <div
+                            class="views-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M7 17L7 13" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M12 17L12 7" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M17 17L17 11" stroke-width="1.5" stroke-linecap="round" />
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </div>8.9k
+                        </div>
+                        <div
+                            class="bookmark-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-all duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M4 17.9808V9.70753C4 6.07416 4 4.25748 5.17157 3.12874C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.12874C20 4.25748 20 6.07416 20 9.70753V17.9808C20 20.2867 20 21.4396 19.2272 21.8523C17.7305 22.6514 14.9232 19.9852 13.59 19.1824C12.8168 18.7168 12.4302 18.484 12 18.484C11.5698 18.484 11.1832 18.7168 10.41 19.1824C9.0768 19.9852 6.26947 22.6514 4.77285 21.8523C4 21.4396 4 20.2867 4 17.9808Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-[2px] w-full bg-neutral-800"></div>
+
+            <div class="post p-2 hover:bg-neutral-950 hover:cursor-pointer duration-400 ease-in-out">
+                <div class="profile flex items-center gap-1">
+                    <div class="profile-photo">
+                        <img src="https://pbs.twimg.com/profile_images/1945041237628637184/neTLBwL1_bigger.jpg"
+                            class="rounded-full w-10 max-md:w-8 mt-1 mx-2  " alt="">
+                    </div>
+                    <div class="profile-details flex flex-1 gap-2 max-md:gap-1 items-center">
+                        <div class="profile-name text-2xl font-bold max-md:text-[1rem] h-full">Prem Mishra</div>
+                        <div class="profile-id max-md:text-xs h-full">@mishra_tweeter</div>
+                        <div class="date max-md:text-xs h-full">· 21 D</div>
+                    </div>
+                </div>
+                <div class="post-content flex flex-col max-md:mt-3 md:ml-16 md:mr-3 gap-3">
+                    <div class="caption max-md:text-sm">Test Cricket is so boring without him .</div>
+                    <div class="posted-photo">
+                        <img src="./Assets/Post-Images/post-4.jpeg"
+                            class="rounded-2xl max-h-[500px] max-md:max-h-[300px] w-full object-cover" alt="">
+                    </div>
+
+                    <div class="media-icons flex justify-around items-center scale-[0.9]">
+                        <div
+                            class="reply-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#1d9bf0]/35 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#1d9bf0] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M20 9C19.2048 5.01455 15.5128 2 11.0793 2C6.06549 2 2 5.85521 2 10.61C2 12.8946 2.93819 14.9704 4.46855 16.5108C4.80549 16.85 5.03045 17.3134 4.93966 17.7903C4.78982 18.5701 4.45026 19.2975 3.95305 19.9037C5.26123 20.1449 6.62147 19.9277 7.78801 19.3127C8.20039 19.0954 8.40657 18.9867 8.55207 18.9646C8.65392 18.9492 8.78659 18.9636 9 19.0002"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M11 16.2617C11 19.1674 13.4628 21.5234 16.5 21.5234C16.8571 21.5238 17.2132 21.4908 17.564 21.425C17.8165 21.3775 17.9428 21.3538 18.0309 21.3673C18.119 21.3807 18.244 21.4472 18.4938 21.58C19.2004 21.9558 20.0244 22.0885 20.8169 21.9411C20.5157 21.5707 20.31 21.1262 20.2192 20.6496C20.1642 20.3582 20.3005 20.075 20.5046 19.8677C21.4317 18.9263 22 17.6578 22 16.2617C22 13.356 19.5372 11 16.5 11C13.4628 11 11 13.356 11 16.2617Z"
+                                        stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>300
+                        </div>
+
+                        <div
+                            class="repost-icon icons-text hover:cursor-pointer hover:text-green-400 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#00ba7c]/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#00ba7c] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M5.5 3.5L5.5 14.5C5.5 18.2133 8.18503 21 12 21" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M18.5 20.5L18.5 9.5C18.5 5.78672 15.815 3 12 3" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 18C21 18 19.1588 20.5 18.5 20.5C17.8412 20.5 16 18 16 18"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M8 5.50022C8 5.50022 6.15878 3.00025 5.49998 3.00024C4.84118 3.00024 3 5.50024 3 5.50024"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>1k
+                        </div>
+
+                        <div
+                            class="like-icon icons-text hover:cursor-pointer hover:text-pink-600 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-pink-600/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-pink-600 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M10.4107 19.9677C7.58942 17.858 2 13.0348 2 8.69444C2 5.82563 4.10526 3.5 7 3.5C8.5 3.5 10 4 12 6C14 4 15.5 3.5 17 3.5C19.8947 3.5 22 5.82563 22 8.69444C22 13.0348 16.4106 17.858 13.5893 19.9677C12.6399 20.6776 11.3601 20.6776 10.4107 19.9677Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>4.5k
+                        </div>
+                        <div
+                            class="views-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M7 17L7 13" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M12 17L12 7" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M17 17L17 11" stroke-width="1.5" stroke-linecap="round" />
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </div>8.9k
+                        </div>
+                        <div
+                            class="bookmark-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-all duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M4 17.9808V9.70753C4 6.07416 4 4.25748 5.17157 3.12874C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.12874C20 4.25748 20 6.07416 20 9.70753V17.9808C20 20.2867 20 21.4396 19.2272 21.8523C17.7305 22.6514 14.9232 19.9852 13.59 19.1824C12.8168 18.7168 12.4302 18.484 12 18.484C11.5698 18.484 11.1832 18.7168 10.41 19.1824C9.0768 19.9852 6.26947 22.6514 4.77285 21.8523C4 21.4396 4 20.2867 4 17.9808Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-[2px] w-full bg-neutral-800"></div>
+
+            <div class="post p-2 hover:bg-neutral-950 hover:cursor-pointer duration-400 ease-in-out">
+                <div class="profile flex items-center gap-1">
+                    <div class="profile-photo">
+                        <img src="https://pbs.twimg.com/profile_images/1945041237628637184/neTLBwL1_bigger.jpg"
+                            class="rounded-full w-10 max-md:w-8 mt-1 mx-2  " alt="">
+                    </div>
+                    <div class="profile-details flex flex-1 gap-2 max-md:gap-1 items-center">
+                        <div class="profile-name text-2xl font-bold max-md:text-[1rem] h-full">Prem Mishra</div>
+                        <div class="profile-id max-md:text-xs h-full">@mishra_tweeter</div>
+                        <div class="date max-md:text-xs h-full">· 1 M</div>
+                    </div>
+                </div>
+                <div class="post-content flex flex-col max-md:mt-3 md:ml-16 md:mr-3 gap-3">
+                    <div class="caption max-md:text-sm">Japan by night. 🌸</div>
+                    <div class="posted-photo">
+                        <img src="./Assets/Post-Images/post-5.jpeg"
+                            class="rounded-2xl max-h-[500px] max-md:max-h-[300px] w-full object-cover" alt="">
+                    </div>
+
+                    <div class="media-icons flex justify-around items-center scale-[0.9]">
+                        <div
+                            class="reply-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#1d9bf0]/35 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#1d9bf0] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M20 9C19.2048 5.01455 15.5128 2 11.0793 2C6.06549 2 2 5.85521 2 10.61C2 12.8946 2.93819 14.9704 4.46855 16.5108C4.80549 16.85 5.03045 17.3134 4.93966 17.7903C4.78982 18.5701 4.45026 19.2975 3.95305 19.9037C5.26123 20.1449 6.62147 19.9277 7.78801 19.3127C8.20039 19.0954 8.40657 18.9867 8.55207 18.9646C8.65392 18.9492 8.78659 18.9636 9 19.0002"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M11 16.2617C11 19.1674 13.4628 21.5234 16.5 21.5234C16.8571 21.5238 17.2132 21.4908 17.564 21.425C17.8165 21.3775 17.9428 21.3538 18.0309 21.3673C18.119 21.3807 18.244 21.4472 18.4938 21.58C19.2004 21.9558 20.0244 22.0885 20.8169 21.9411C20.5157 21.5707 20.31 21.1262 20.2192 20.6496C20.1642 20.3582 20.3005 20.075 20.5046 19.8677C21.4317 18.9263 22 17.6578 22 16.2617C22 13.356 19.5372 11 16.5 11C13.4628 11 11 13.356 11 16.2617Z"
+                                        stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>300
+                        </div>
+
+                        <div
+                            class="repost-icon icons-text hover:cursor-pointer hover:text-green-400 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-[#00ba7c]/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-[#00ba7c] transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M5.5 3.5L5.5 14.5C5.5 18.2133 8.18503 21 12 21" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M18.5 20.5L18.5 9.5C18.5 5.78672 15.815 3 12 3" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 18C21 18 19.1588 20.5 18.5 20.5C17.8412 20.5 16 18 16 18"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M8 5.50022C8 5.50022 6.15878 3.00025 5.49998 3.00024C4.84118 3.00024 3 5.50024 3 5.50024"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>1k
+                        </div>
+
+                        <div
+                            class="like-icon icons-text hover:cursor-pointer hover:text-pink-600 duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-pink-600/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="w-6 h-6 stroke-[#71767b] group-hover:stroke-pink-600 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M10.4107 19.9677C7.58942 17.858 2 13.0348 2 8.69444C2 5.82563 4.10526 3.5 7 3.5C8.5 3.5 10 4 12 6C14 4 15.5 3.5 17 3.5C19.8947 3.5 22 5.82563 22 8.69444C22 13.0348 16.4106 17.858 13.5893 19.9677C12.6399 20.6776 11.3601 20.6776 10.4107 19.9677Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>4.5k
+                        </div>
+                        <div
+                            class="views-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-colors duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path d="M7 17L7 13" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M12 17L12 7" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M17 17L17 11" stroke-width="1.5" stroke-linecap="round" />
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </div>8.9k
+                        </div>
+                        <div
+                            class="bookmark-icon icons-text hover:cursor-pointer hover:text-[#1d9bf0] duration-400 ease-in-out">
+                            <div
+                                class="p-2 rounded-full hover:bg-blue-500/10 group transition-all duration-300 ease-in-out cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="stroke-[#71767b] group-hover:stroke-blue-700 transition-colors duration-300 ease-in-out"
+                                    fill="none">
+                                    <path
+                                        d="M4 17.9808V9.70753C4 6.07416 4 4.25748 5.17157 3.12874C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.12874C20 4.25748 20 6.07416 20 9.70753V17.9808C20 20.2867 20 21.4396 19.2272 21.8523C17.7305 22.6514 14.9232 19.9852 13.59 19.1824C12.8168 18.7168 12.4302 18.484 12 18.484C11.5698 18.484 11.1832 18.7168 10.41 19.1824C9.0768 19.9852 6.26947 22.6514 4.77285 21.8523C4 21.4396 4 20.2867 4 17.9808Z"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-[2px] w-full bg-neutral-800"></div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="third flex-1 pl-5 hidden md:block bg-black ">
+
+            <div class="search-bar px-6 pt-2 sticky top-0 z-10 bg-black h-[58px]">
+                <span class="absolute left-9 top-1/2 transform -translate-y-1/2 text-gray-400">
+                    <img src="./Assets/Icons/Search-Icon.svg" class="w-4.5 " alt="">
+                </span>
+                <input type="text" placeholder="Search" name="search-box"
+                    class="bg-black text-white placeholder-white placeholder-opacity-70 border-[1px] border-neutral-800 rounded-full px-9 py-1 w-full placeholder-text outline-none focus:outline-none focus:ring-1 focus:ring-blue-500" />
+            </div>
+
+            <div class="lower-part sticky top-[-250px] scroll-smooth">
+                <div
+                    class="trending-section border-[1px] border-neutral-800 rounded-2xl my-5 mx-auto flex flex-col gap-1">
+                    <h1 class="text-2xl font-bold text-white px-5 py-2">What's Happening</h1>
+                    <div class="trending-item hover:bg-neutral-950 duration-200 ease-in-out">
+                        <div class="trend">Trending in India</div>
+                        <div class="tittle">#AshishChanchalani</div>
+                        <div class="post-count">21k Posts</div>
+                    </div>
+                    <div class="trending-item hover:bg-neutral-950 duration-200 ease-in-out">
+                        <div class="trend">Trending in US</div>
+                        <div class="tittle">#JusticeForTrump</div>
+                        <div class="post-count">13k Posts</div>
+                    </div>
+                    <div class="trending-item hover:bg-neutral-950 duration-200 ease-in-out">
+                        <div class="trend">Trending in India</div>
+                        <div class="tittle">#SaiyaraSong</div>
+                        <div class="post-count">10.5k Posts</div>
+                    </div>
+                    <div
+                        class="trending-item hover:bg-neutral-950 duration-200 ease-in-out hover:cursor-pointer px-4 rounded-b-2xl">
+                        <a href="#" class="show-more text-[#146ba6]  hover:underline w-max text-[1rem]">Show More</a>
+                    </div>
+                </div>
+
+
+                <div
+                    class="whom-to-follow-section border-[1px] border-neutral-800 rounded-2xl my-5 mx-auto flex flex-col gap-1 ">
+                    <h1 class="text-2xl font-bold text-white px-5 py-2">Who to follow</h1>
+                    <div class="creator hover:bg-neutral-950 duration-200 ease-in-out md:flex">
+                        <div class="creator-profile">
+                            <div class="creator-name">Monkey Magic</div>
+                            <div class="creator-id">@monkeymagic</div>
+                        </div>
+                        <div class="follow-button">
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="creator hover:bg-neutral-950 duration-200 ease-in-out md:flex">
+                        <div class="creator-profile">
+                            <div class="creator-name">camerawalebhaiya</div>
+                            <div class="creator-id">@camerawalebhaiy</div>
+                        </div>
+                        <div class="follow-button">
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="creator hover:bg-neutral-950 duration-200 ease-in-out md:flex">
+                        <div class="creator-profile">
+                            <div class="creator-name">Haris Ali Khan</div>
+                            <div class="creator-id">@codewithharry</div>
+                        </div>
+                        <div class="follow-button">
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="creator  hover:bg-neutral-950 duration-200 ease-in-out hover:cursor-pointer px-4 rounded-b-2xl">
+                        <a href="#" class="show-more text-[#146ba6]  hover:underline w-max text-[1rem]">Show More</a>
+                    </div>
+                </div>
+
+                <div class="terms grid grid-flow-col grid-rows-2 gap-2 text-xs text-gray-500 px-3 w-max">
+                    <span class="hover:underline cursor-pointer">Terms of Service</span>
+                    <span class="hover:underline cursor-pointer">Privacy Policy</span>
+                    <span class="hover:underline cursor-pointer">Cookie Policy</span>
+                    <span class="hover:underline cursor-pointer">Accessibility</span>
+                    <span class="hover:underline cursor-pointer">Ads info</span>
+                    <span class="hover:underline cursor-pointer">© 2025 X Corp.</span>
+                    <span class="hover:underline cursor-pointer">More ...</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
