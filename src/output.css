@@ -430,8 +430,17 @@
   .stroke-\[\#71767b\] {
     stroke: #71767b;
   }
+  .object-contain {
+    object-fit: contain;
+  }
   .object-cover {
     object-fit: cover;
+  }
+  .object-bottom {
+    object-position: bottom;
+  }
+  .object-center {
+    object-position: center;
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
